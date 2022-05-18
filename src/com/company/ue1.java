@@ -20,6 +20,6 @@ public class ue1 {
         System.out.println("is this a hidden file?: "+ file.isHidden());
         System.out.println("is this file readable?: "+ file.canRead());
         System.out.println("is this file writable?: "+ file.canWrite());
-        System.out.println("File size: "+ file.getTotalSpace());
+        System.out.println("File size: "+ file.length());
     }
 }

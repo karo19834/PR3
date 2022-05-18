@@ -13,7 +13,7 @@ public class ue2 {
         for (File file : files) {
             if (file.isDirectory()) {
                 System.out.println("Dir: "+file);
-            }else if (file.isFile()){
+            }else {
                 System.out.println("File: "+file);
             }
         }
