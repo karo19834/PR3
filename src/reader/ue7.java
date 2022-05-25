@@ -9,7 +9,7 @@ public class ue7 {
     public static void main(String[] args) throws IOException {
 
 
-        // öffnet die Datei test.txt
+        // öffnet die Datei test.html
         File file = new File("test.html");
         // liefert einen textorientierten Stream der Datei zurück
         FileReader fileReader = new FileReader(file);
